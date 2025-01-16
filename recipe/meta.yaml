@@ -1,5 +1,5 @@
 {% set name = "bursty-dynamics" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bursty_dynamics-{{ version }}.tar.gz
-  sha256: bed9391ef5a5b057972f61bae38055bd2ea23e98d299d34a4ff406af5edd58e0
+  sha256: d95c21fb7b1c18957960f0cdb8ab15547dc652fa8130bd821a38ccd298d1bf3b
 
 build:
   noarch: python
